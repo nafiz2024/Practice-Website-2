@@ -180,11 +180,14 @@ header {
   background: url("../images/watch.png");
   background-repeat: no-repeat;
   border-radius: 5px;
+  display: flex;
+  position: relative;
 }
 
 .banner_content {
   padding: 59px 0px 59px 64px;
   width: 540px;
+  position: absolute;
 }
 
 .banner_content h1 {
